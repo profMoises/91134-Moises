@@ -6,6 +6,9 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     exit;
 }
 
+// Inclui o script que lista os dados
+include 'autenticar.php';
+
 // Inclui a conexão com o    banco
 include 'conexao.php';
 
